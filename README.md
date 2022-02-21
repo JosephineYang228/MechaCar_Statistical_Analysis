@@ -15,3 +15,17 @@
  - Since the mean value and median value are highly closed to the standard and the variance value (approx 7.50) and standard deviation value (approx 2.73) are not that big, I would say Lot 2 also meet this design specification.
  - Since the mean value (1496.14) is a bit far from the standard, the median value are highly closed to the standard and the variance value (approx 170.29) and standard deviation value (approx 13.05) are much beyond the expectation, I would say Lot 3 does NOT meet this design specification.
 
+## Study Design: MechaCar vs Competition
+ ![D3-1](https://github.com/JosephineYang228/MechaCar_Statistical_Analysis/blob/a0c9aec2c6519f645630c7d5597f53f26cee750a/image/D3-1.png)
+ - The image above shows that when it comes to all manufacturing lots, the mean value is closed to standard, BUT the p-value is approx 0.06, which is a bit larger than expectation (0.05). Thus we could NOT reject the null hypothesis.
+
+![D3-2](https://github.com/JosephineYang228/MechaCar_Statistical_Analysis/blob/a0c9aec2c6519f645630c7d5597f53f26cee750a/image/D3-2.png)
+ - The image above shows the mean value of Lot 1 (1500.0) is equal to standard, However, the p-value is 1 which is not small enough to reject the null hypothesis.
+
+![D3-3](https://github.com/JosephineYang228/MechaCar_Statistical_Analysis/blob/a0c9aec2c6519f645630c7d5597f53f26cee750a/image/D3-3.png)
+ - The image above shows the mean value of Lot 2 (1500.2) is closed to standard, However, the p-value is approx 0.61 which is not small enough to reject the null hypothesis.
+
+![D3-4](https://github.com/JosephineYang228/MechaCar_Statistical_Analysis/blob/a0c9aec2c6519f645630c7d5597f53f26cee750a/image/D3-4.png)
+ - The image above shows the mean value of Lot 3 (1496.14) is NOT that closed to standard, However, the p-value is approx 0.042 which means we could reject the null hypothesis. This lot may be needed to cast off cause it does NOT meet our design specification.
+
+
