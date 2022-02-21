@@ -7,4 +7,4 @@
 ### Is the slope of the linear model considered to be zero? Why or why not?
  - No. The image above shows the p-value is much smaller than 0.05, which means that the slope of our linear model is not zero.
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
- - Yes. The image above shows the Multiple R-squared value is 0.7149, which means that roughly 71.49% of the variablilty of our dependent variable (quarter-mile time predictions) is explained using this linear model.
+ - Yes. The image above shows the Multiple R-squared value is 0.7149, which means that roughly 71.49% of the variablilty of our dependent variable is explained using this linear model. In a simple linear regression model, the higher the correlation is between two variables, the more that one variable can explain/predict the value of the other.
