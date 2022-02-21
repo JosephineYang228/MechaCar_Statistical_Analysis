@@ -28,4 +28,25 @@
 ![D3-4](https://github.com/JosephineYang228/MechaCar_Statistical_Analysis/blob/a0c9aec2c6519f645630c7d5597f53f26cee750a/image/D3-4.png)
  - The image above shows the mean value of Lot 3 (1496.14) is NOT that closed to standard, However, the p-value is approx 0.042 which means we could reject the null hypothesis. This lot may be needed to cast off cause it does NOT meet our design specification.
 
+## Study Design: MechaCar vs Competition
+Since it's common and easy to lease a car in Canada, I would say purchase is Not a rigid demand. Thus MechaCar should show its outstanding advance in such fields, for instance, cost, city or highway fuel efficiency, horse-power, maintenance cost, or safety rating to persuade purchasing. And there are some metrics could be tested that directly and clearly display the performance.
 
+### What metric or metrics are you going to test?
+Fuel efficiency, hourse-power and safety ratings.
+
+### What is the null hypothesis or alternative hypothesis?
+#### Null hypothesis
+  - MechaCar's average fuel efficiency is similar to competitor's vehicles'.
+  - MechaCar's average house-power is similar to competitor's vehicles'.
+  - MechaCar's average safety ratings is similar to competitor's vehicles'.
+
+#### Alternative hypothesis?
+  - MechaCar's average fuel efficiency is statistically above or below that of competitor vehicles.
+  - MechaCar's average house-power is statistically higher or lower than that of competitor vehicles.
+  - MechaCar's average safety ratings is statistically higher or lower than that of competitor vehicles.
+
+### What statistical test would you use to test the hypothesis? And why?
+Two sample T-test for each metric. Because a two-sample t-Test could helps to determine whether the means of two samples are statistically different, which would helps customers to decide to buy or not.
+
+### What data is needed to run the statistical test?
+Fuel efficiency, hourse-power and safety ratings of all MechaCar prototypes, as well as from all major competitor vehicles.
